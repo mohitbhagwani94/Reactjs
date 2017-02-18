@@ -6,9 +6,11 @@ import Footer from "./pages/Footer"
 import Layout from "./components/Layout"
 
 var app = document.getElementById("app");
-ReactDOM.render( <div>
+const  element =<div>
                   <Header />
                   <Layout />
                   <Footer />
                 </div>
+ReactDOM.render(
+    element 
   ,app); 
